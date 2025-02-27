@@ -9,8 +9,8 @@ end
 -- Başlangıçta FireServer işlemi
 local args = {
     [1] = {
-        [1] = "Fist",
-        [2] = "Fist1"
+        [1] = "Psychic",
+        [2] = "Psychic3"
     }
 }
 fireEvent(args)
@@ -18,7 +18,7 @@ fireEvent(args)
 while _G.cum do
     local args = {
         [1] = {
-            [1] = "+PS2"
+            [1] = "+PP2"
         }
     }
     fireEvent(args)
@@ -35,7 +35,7 @@ while _G.cum do
     fireEvent(args)
     
     -- Tekrar hızlandırmak için task.wait() kullanımı optimize edilebilir
-    task.wait(0.01) -- Kısa bekleme süresi ile işlem hızlanır
+    task.wait(1) -- Kısa bekleme süresi ile işlem hızlanır
 end
 
 if not _G.cum then
