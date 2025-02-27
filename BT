@@ -35,7 +35,7 @@ while _G.cum do
     fireEvent(args)
     
     -- Tekrar hızlandırmak için task.wait() kullanımı optimize edilebilir
-    task.wait(0.001) -- Kısa bekleme süresi ile işlem hızlanır
+    task.wait(0.01) -- Kısa bekleme süresi ile işlem hızlanır
 end
 
 if not _G.cum then
